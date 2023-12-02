@@ -78,3 +78,23 @@ The value of radius: 3
 Area: 28.274 metre²
 Circumference: 18.850 metre
 ------------------------------------------
+MENU:
+1. Calculate shape area/volume
+2. Calculate combined perimeter/area/volume
+3. Exit
+Enter your choice: 2
+
+Selected Dimension: metre
+
+Enter the number of shapes for calculating perimeter/surface area/volume: 3
+
+---------------- SHAPE 1 ----------------
+Enter the value of perimeter/area/volume for shape 1: 15
+
+---------------- SHAPE 2 ----------------
+Enter the value of perimeter/area/volume for shape 2: 25
+
+---------------- SHAPE 3 ----------------
+Enter the value of perimeter/area/volume for shape 3: 10
+
+The combined perimeter/area/volume is 50 metre²
