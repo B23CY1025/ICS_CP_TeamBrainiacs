@@ -1,0 +1,80 @@
+# Project by Team Brainiacs
+
+*Area Calculator*
+This C program allows users to calculate the area, perimeter, and volume of various geometric shapes. The program provides a menu-driven interface for easy interaction.
+
+*Prerequisites*
+Make sure you have a C compiler installed on your system. You can use GCC (GNU Compiler Collection) for compiling the program.
+
+*GCC Installation:*
+For Linux: sudo apt-get install gcc
+For macOS: brew install gcc
+For Windows: MinGW
+
+*How to Compile*
+Open a terminal or command prompt.
+
+Navigate to the directory containing the source code (area_calculator.c).
+
+Run the following command to compile the program:
+  gcc area_calculator.c -o area_calculator
+
+*How to Run*
+After successful compilation, run the executable:
+
+For Linux/Mac:
+  ./area_calculator
+
+For Windows:
+  area_calculator.exe
+
+*Usage*
+Follow the on-screen instructions to choose the dimension, select shapes, and input their parameters. The program will then calculate and display the desired properties.
+
+->Menu Options
+Calculate shape area/volume:
+  -Enter the number of shapes you want to calculate.
+  -Input the parameters for each shape as prompted.
+Calculate combined perimeter/area/volume:
+  -Enter the number of shapes you want to combine.
+  -Input the perimeter, area, or volume for each shape as prompted.
+Exit:
+  -Choose this option to exit the program.
+
+*Input Guidelines*
+  -Choose a valid dimension: centimetre, inch, feet, metre.
+  -Shape names are case-insensitive.
+  -Follow the prompts to input numerical values for dimensions or parameters.
+Example
+--> AREA CALCULATOR <--
+
+Choose a Dimension (e.g., centimetre, inch, feet, metre): metre
+
+MENU:
+1. Calculate shape area/volume
+2. Calculate combined perimeter/area/volume
+3. Exit
+Enter your choice: 1
+
+Selected Dimension: metre
+
+Enter the number of shapes for calculating perimeter/surface area/volume: 2
+
+---------------- INPUT 1 ----------------
+Enter the shape (e.g., Square, Circle, Cylinder): square
+
+---------------- SHAPE 1 ----------------
+The value of side of square: 5
+Diagonal: 7.071 metre
+Area: 25.000 metre²
+Perimeter: 20.000 metre
+------------------------------------------
+
+---------------- INPUT 2 ----------------
+Enter the shape (e.g., Square, Circle, Cylinder): circle
+
+---------------- SHAPE 2 ----------------
+The value of radius: 3
+Area: 28.274 metre²
+Circumference: 18.850 metre
+------------------------------------------
